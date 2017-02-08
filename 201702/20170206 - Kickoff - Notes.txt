@@ -1,0 +1,75 @@
+# 20170206 - Kickoff - Notes.txt
+
+
+2017-02-06 Data Management Meetup Event
+6:30pm @ EPL Idylwylde Branch
+Minutes by Alec
+
+Attendees: 11 total
+Rob (founder) - working in data mgmt since the ‘80s
+Alec (co-organizer) - comp sci student, but fairly new to all this (was studying Ecology before) - likes data & organizing things
+Lilian - a
+Heng - new to YEG; stats degree; interested in working more w/ data
+Joe - dad @ home but looking to work again; master’s in comp sci; taken lots of online courses recently
+François - TELUS security consultant; joined their incident response team (deals w/ lots of analytics & big data) - building their incident mgmt system
+Nancy - manipulates data, working for Dark Horse Analytics
+Marc - worked w/ semiconductors & fiberoptics - had to analyze data & program; moved to YEG from Bangkok
+Linda - [was @ first meetup]
+Simon - works for university; met Rob @ [NAIT event]
+George - works for DynaLife
+Noteworthy absentees
+Soumya (City of Edmonton contact)
+Brian (Data 4 Good Edmonton founder)
+
+
+1) Presentation
+Goals for this meet up
+Learn from each other in a safe space
+Use tools that aren’t from the ‘90s - esp new tools in the cloud
+Learn & build our skills with all this by actually working on practical projects
+Our niche, relative to other data meetups in YEG: we’ll clean & organize data (using that as our means of learning tools & practices) - we target a step earlier in the pipeline than other groups, who want cleaned-up datasets to work with/on
+
+
+2) Tools We’re Familiar With
+Heng - R, Excel
+Joe - Octave, 
+Simon - Elk, Spark, Hadoop, ‘small data guy’
+François - Splunk*, Hadoop
+George - MungoDB, Microsoft SQL Server, Oracle
+Nancy - SQL Server, starting some AWS
+Marc - MatLab, 
+Linda - R, command-line
+Alec - Excel, Python, R
+*Splunk (used w/ Hadoop) - but expensive, commercial
+
+
+3) What Are Our Goals?
+Linda - working w/ GIS data (e.g. WEM crime, parks)
+Alec, Lilian
+Marc - learning everything!
+Alec, Lilian
+Joe - working with anonymized data
+Good datasets: Edmonton Open Data, AHS (Simon), 
+
+
+Questions / Discussion
+Do we overlap a lot with Data 4 Good?
+What we want to do is clean up & organize data - so we can work on the data sets, and then D4G uses them
+Can you give a concrete example of what data management is?
+Rob shared stories from work projects
+Concerns that we’re not starting our work with a question… often, that’s how projects begin
+Edmonton contact suggested starting w/ Transportation as an area of interest
+
+
+Moving Forward
+Our future meetings will be 1st Monday of the month
+Careful not to conflict w/ Startup Edmonton Python (2nd Monday of the month)
+Everyone: visit Edmonton Open Data —> choose 1-2 datasets of interest
+Try data profiling - tools to use: 
+Can use Tableau Public for free
+Trifecta Wrangler is free too
+Member Presentations
+George - talk about GitHub
+Marc - short presentation on previous MatLab project(s), asking for our thoughts/advice
+Rob - demo of Jupiter Notebook
+Rob/Alec - make George admin on GitHub account
