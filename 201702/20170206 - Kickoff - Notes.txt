@@ -68,8 +68,4 @@ Everyone: visit Edmonton Open Data —> choose 1-2 datasets of interest
 Try data profiling - tools to use: 
 Can use Tableau Public for free
 Trifecta Wrangler is free too
-Member Presentations
-George - talk about GitHub
-Marc - short presentation on previous MatLab project(s), asking for our thoughts/advice
-Rob - demo of Jupiter Notebook
-Rob/Alec - make George admin on GitHub account
+2017

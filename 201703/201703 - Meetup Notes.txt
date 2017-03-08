@@ -1,0 +1,76 @@
+#201703 Meetup Notes  
+
+## Pre-Meetup  
+Message Members about talks ....  
+	George Zhang - talk about GitHub  
+	Mark Keith Fernandex - short presentation on previous MatLab project(s), asking for our thoughts/advice  
+
+
+## 2017-03-06 Data Management Meetup Event  
+6:30pm @ EPL Idylwylde Branch  
+Minutes by Alec  
+
+Attendees: 9 attendees + 2 organizers  
+19 people RSVP'd  
+Rob (founder) - working in data mgmt since the ‘80s  
+Fareeza - works for govAB  
+Joshua Bragge - new  
+Mike  
+Nancy - manipulates data, working for Dark Horse Analytics
+George
+François - TELUS security consultant; joined their incident response team (deals w/ lots of analytics & big data) - building their incident mgmt system
+Joe - dad @ home but looking to work again; master’s in comp sci; taken lots of online courses recently
+Mark - worked w/ semiconductors & fiberoptics - had to analyze data & program; moved to YEG from Bangkok
+Alec (co-organizer) - comp sci student, but fairly new to all this (was studying Ecology before) - likes data & organizing things
+Heng - new to YEG; stats degree; interested in working more w/ data
+George - works for DynaLife
+
+
+
+### 1) Recap of EPL Open Data Day Mini-Meetup  
+Lots of teams spent most of their time just organizing the data… validation for our group’s niche!  
+
+
+### 2) Mark’s Presentation on MatLab    
+
+Background: hardware, mechanical engineering (making fiberoptic for data comms) - company: SEMTECH
+Part of dev flow was testing them —> generated datasets (Mbs)
+1 problem: many different dept’s did the tests - different methods, formats, & tools for the data
+Sol’n 1: standardize systems… but not easy
+Sol’n 2: standardize file format - easiest starting place; could later link to a database
+:: Text-based XML format; files saved to local hard disk
+Human-readable; results of each text would be ONE file (avoid losing data); 
+"Flat-file database” - contains multiple txt files
+Shortcoming: can’t contain multiple tables like a relational database can
+Data volume: running tests for 1 month yields 1 Gb… each file is only ~7 kb
+Advice from the group: 
+Use Mongo on top of the XML you’re currently using… adds functionality while preserving flexibility
+SQL could work too, BUT a noSQL database (like Mongo) is more flexible, which is a big factor here
+Or PostgreSQL - kind of combines both SQL & noSQL
+
+
+### 3) George’s Presentation on GitHub  
+Ran through the GitHub Desktop GUI and GitHub in Terminal  
+Showed off the Edmonton Data Management Meetup GitHub org page - members join us @ https://github.com/DataManagementYEG   
+
+
+### 4) Rob’s Presentation on Jupyter Notebook & Other New Tools  
+Has been playing around with it for YEG Open Data (e.g. Neighbourhoods dataset)
+Good tool for when you have too many rows/columns for human eyes
+On Windows environment… use Anaconda to fix your environment! 
+KNIME (open-source tool): drag-and-drop environment that lets you build your own ETL’s (Extract, Transform, Load)
+Mike: RapidMiner is a good alternative (Gary from Data4Good also likes it)
+GenMyModel, Vertabelo: web services that will import database —> draw picture —> export
+
+
+
+## Moving Forward
+[recap] Everyone: visit Edmonton Open Data —> choose 1-2 datasets of interest 
+Try data profiling - tools to use:  
+Can use Tableau Public for free 
+Trifecta Wrangler is free too 
+Future presentation ideas:  
+People can play around with new tools Rob has been finding:  
+Jupyter Notebook, KNIME, RapidMiner, GenMyModel, Verkabelt 
+George: cases where you have a queue & want to set up KPI's  
+Alec invited George to Edmonton Data Management GitHub (username: georgezhang) - make him an admin later? (something we talked about last time) 
