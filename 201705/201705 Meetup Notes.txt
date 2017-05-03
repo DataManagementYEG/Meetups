@@ -1,0 +1,59 @@
+# 2017-05-01 Data Management Meetup Event
+6:30pm @ EPL Idylwylde Branch
+Minutes by Alec
+
+Attendees: 7 attendees + 2 organizers
+18 people RSVP'd
+Alec (co-org) - Comp Sci student
+Rob (founder) - working in data mgmt since the ‘80s
+Fareeza - works for govAB - OSI (Office of Statistics & Information)
+Lilian - Stollery Children’s Hospital, data entry + mgmt. Looking for jobs in analytics
+Mohammed / Mo - same job as Rob, bridging data mgmt & business: IT business intelligence 
+Gerry - consulting for geographic info systems
+Sergey - consulting company (…), data science for fun (playoffs model; analytics for choosing junior high for his kid)
+Simon - analyst @ UofA: device log data 
+Mohammed / Mo - financial planning analysis. Works w/ dashboard, financial modelling, 
+Chengtao - recent ENCS graduate; interested in GIS
+Linda - A
+
+
+
+1) Edmonton Open Data Summit
+Suggestion from Gerry: on the Saturday (half day), host a FREE unstructured ‘Un-Summit’ 
+Rob: Is it similar to EPL’s Open Data Day at MacEwan in Feb?
+It’ll be less structured - more discussion
+
+ 
+2) Edmonton Open Data Project
+Recap of goals & reason for the project
+Example: NYC Open Data Example
+Question they were examining: “What is the fairness of SAT testing in NYC schools?"
+
+
+3) Brainstorming Questions
+
+
+Group Questions / Discussion
+A
+
+
+Moving Forward
+Future presentation ideas: 
+People can play around with new tools Rob has been finding: 
+Jupyter Notebook, KNIME, RapidMiner, GenMyModel, Verkabelt
+George: cases where you have a queue & want to set up KPI’s
+Joshua Bragge: next meeting
+Side project from Rob: help parsing huge JSON blob
+Gerry offered to help
+Alec get Gerry’s email RE the Open Data Un-Summit
+gerry@tychon.ca
+Simon: set up Slack channel
+Rob copy brainstorming into GitHub Issues / repositories
+Alec ideas: 
+Start G-Sheet of RSVPs vs attendance; repeat attendees
+Send out survey to members —> OR, USE AS QUESTIONS FOR NEW MEMBERS ON MEETUP?
+What time commitment do you expect? 
+Suggestions for locations (w/ good parking)
+How competent do you feel, working on project
+What are you interested in learning / doing
+Do you have access to cool data sets?
