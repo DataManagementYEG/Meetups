@@ -1,0 +1,37 @@
+# 2017-06-05 Data Management Meetup Event
+6:30pm @ EPL Idylwylde Branch
+Minutes by Rob
+
+Attendees: 5 attendees + 2 organizers
+10 people RSVP'd
+
+Alec (co-org) - Comp Sci student
+Rob (founder) - working in data mgmt since the ‘80s
+
+Dan (*New)
+Tanya (*New)
+Linda
+Mohammed / Mo
+Fareeza
+
+
+## Discussions
+- Data Processing ideas
+- Jupyter notebook for reviewing data
+	- "Potholes" https://github.com/DataManagementYEG/Sandbox/blob/master/notebooks/11_potholes.ipynb
+- Analyzing Data in S3 using Amazon Athena
+	- https://aws.amazon.com/blogs/big-data/analyzing-data-in-s3-using-amazon-athena/
+- StatCan data
+	- http://www.statcan.gc.ca/eng/developers/ind-all-json
+- Azure Machine Learning
+	- https://studio.azureml.net/
+- AWS Glue
+	- https://aws.amazon.com/glue/
+	- 
+
+## Next Meeting
+ - No "official" summer meetups
+		- Rob will try and arrange a social event
+ - See you in September!
+- 
+
