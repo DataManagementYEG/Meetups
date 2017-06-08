@@ -33,5 +33,57 @@ Fareeza
  - No "official" summer meetups
 		- Rob will try and arrange a social event
  - See you in September!
-- 
+
+
+# More Notes ....
+2017-06-05 Data Management Meetup Event
+6:30pm @ EPL Idylwylde Branch
+Minutes by Alec
+
+
+Attendees: 7 attendees + 2 organizers
+9 people RSVP'd
+Alec (co-org) - Comp Sci student
+Rob (founder) - working in data mgmt since the ‘80s
+Mohammed / Mo - financial planning analysis. Works w/ dashboard, financial modelling, 
+Dan - MechE engineer, looking to switch into data science career
+Tanya - graphic designer moving into web design; been to lots of StartupEdmonton events
+Fareeza - works for govAB - OSI (Office of Statistics & Information)
+Linda - works for Alberta Justice; data work is server log stuff
+Very good at regular expressions (parsing log files)
+
+
+1) Open Data Projects
+We’ve come up with questions & areas of interest, and starting to find data sets —> now what? 
+Can use Jupyter Notebook (or Excel) to process everything
+:: Next step: figure out our ETL process - Rob mentioned tools like Amazon Glue, Amazon Athena… (both new / in beta)
+
+ 
+2) Talking Over Linda’s Work w/ Log Files
+Rob: check out Amazon Athena - very good service for easily getting to data analysis & querying data
+Only released in November last year
+
+
+3) Housekeeping
+For the summer months, considering a hiatus from the monthly meet ups at EPL - maybe get together more casually on a patio with cold drinks instead
+Alec will withdraw as co-organizer - will announce it to the Meetup mailing list
+
+
+Moving Forward
+Future presentation ideas: 
+People can play around with new tools Rob has been finding: 
+Jupyter Notebook, KNIME, RapidMiner, GenMyModel, Verkabelt
+George: cases where you have a queue & want to set up KPI’s
+Joshua Bragge: next meeting
+Side project from Rob: help parsing huge JSON blob
+Gerry offered to help
+Alec’s old ideas
+Start G-Sheet of RSVPs vs attendance; repeat attendees
+Send out survey to members —> OR, QUESTIONS FOR NEW MEMBERS ON MEETUP
+What time commitment do you expect? 
+Suggestions for locations (w/ good parking)
+How competent do you feel, working on project
+What are you interested in learning / doing
+Do you have access to cool data sets?
+
 
