@@ -1,0 +1,38 @@
+# 2017-11-06 Data Management Meetup Event
+6:30pm @ EPL Idylwylde Branch
+Minutes by Rob
+
+Monthly Edmonton Data Management Meetup
+	- https://www.meetup.com/Edmonton-Data-Management-Meetup/
+- 
+Attendees: 
+
+
+## Agenda
+1. Practical Data Management Tools
+	- Users
+		- Teams
+			- Individual Data Science
+			- Small Project Team
+			- Enterprise Operations
+		- Resource Availability
+		- Skillsets
+	- Target Environment
+		- Desktop
+		- RDBMS
+		- Hadoop
+		- Cloud
+	- Audit & Traceability
+		- Code vs MetaData
+		- Generated vs Reported
+		- Lineage
+	- Skillset of Team
+
+## Discussions
+
+
+## Next Meeting
+
+
+# More Notes ....
+

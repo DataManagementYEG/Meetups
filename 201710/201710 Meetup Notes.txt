@@ -1,0 +1,38 @@
+# 2017-10-02 Data Management Meetup Event
+6:30pm @ EPL Idylwylde Branch
+Minutes by Rob
+
+Attendees: x attendees (21 people RSVP'd)
+
+Mona (BI Analysts)
+John (DataScience)
+Tanya (GIS)
+Leo (Developer)
+Meti (DataScience)
+Kevin (Informatics/Law/Privacy/Access)
+Fareeza (DataScience)
+Zak (Computational Biologist)
+Brant (IoT)
+-- a few missing
+
+
+## Agenda
+1. Edmonton Open Data 
+	- [https://data.edmonton.ca]
+	- Soumya Ghosh, director in Edmonton's Smart City program 
+	- Susan Copeland
+	- David Rouch
+
+2. Practical Data Management Tools
+	** this was bumped to November **
+	- Open Data presentation was great and discussion took us to 8PM
+	
+	
+## Discussions
+	- Great Presentation
+
+## Next Meeting
+
+
+# More Notes ....
+
