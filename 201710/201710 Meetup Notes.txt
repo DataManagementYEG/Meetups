@@ -30,6 +30,7 @@ Brant (IoT)
 	
 ## Discussions
 	- Great Presentation
+	- David runs the [BETA CITY YEG](https://betacity.ca) - Edmonton's Civic Technology Meetup
 
 ## Next Meeting
 
