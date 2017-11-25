@@ -1,4 +1,4 @@
-# 2017-11-06 Data Management Meetup Event
+# 2017-12-04 Data Management Meetup Event
 6:30pm @ EPL Idylwylde Branch
 Minutes by Rob
 
@@ -9,19 +9,16 @@ Attendees:
 
 
 ## Agenda
-- Announcements
-    - Data4Good Datathon
-    - December Meetup - Dec 4th
- - Roundtable
- - Demo - WhereScape Red
- - Discussion - Practical Data Management Tools
+Presentation 
+	Jupyter & Project Data Management
+	Mostafa Hadavandsiri, PhD
 
 
 ## Discussions
 
 
 ## Next Meeting
- - Dec. 4th - same place, same time
+ - Jan. 8th - same place, same time
 		- RSVP via Meetup.com
 
 # More Notes ....
