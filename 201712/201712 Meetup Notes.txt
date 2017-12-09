@@ -4,18 +4,57 @@ Minutes by Rob
 
 Monthly Edmonton Data Management Meetup
 	- https://www.meetup.com/Edmonton-Data-Management-Meetup/
+
+This month, we will continue our discussion of data management tools.    
+And we have 2 great guests - both PhDs
+A new PhD graduate will be in to show us the tools and techniques he used to manage the data and models he used for his thesis.  
+Also talking Jupyter will be a professor from Athabasca University.  He has business students using it in a collaborative way.
+For those interested in Python and Jupyter, this will be great.
+See you Dec. 4th.  Looking forward to seeing everyone. 
+
 - 
 Attendees: 
+Mona - learning 
+Mostafa - geo stats
+Rodney - economics
+Carolyn - customer analyst (SAS)
+Kevin - beginner BI student 
+Daniel- general- finance
+Kevin  - Bio - Law
+Rob - organizer
 
 
 ## Agenda
-Presentation 
-	Jupyter & Project Data Management
-	Mostafa Hadavandsiri, PhD
+### Presentations   
+- Mostafa Hadavandsiri, PhD  
+    - Jupyter & Project Data Management  
+	
+- Rodney Beard, PhD  
+    - Business School at Athabasca University    
 
+### Survey Results  
+   - Still need some more input ;-)  
 
 ## Discussions
-
+- A single Jupyter notebook can do a variety of tasks 
+	- graphics, call external programs (Fortran, C, etc) and data
+- Generating 3D graphics
+	- a good option is [Paraview](https://www.paraview.org)
+- Custom Package
+	- Example of matplotlib wrapper to standardize amongst a team
+- Installing Jupyter
+	- Anaconda is recommended, especially for Windows users
+- Documentation
+	- Table of Contents, etc. can be improved using notebook extensions
+- What about R vs Python?
+	- R might be an option for specific use cases 
+- Teaching with Notebooks
+	- https://github.com/babycamel/Teaching/tree/master/Agricultural-Marketing
+- Sharing Notebooks in the cloud
+	- colab.research.google.com
+	- github.com
+- Interesting Web Sites using Notebooks
+	- www.quantopian.com
 
 ## Next Meeting
  - Jan. 8th - same place, same time
