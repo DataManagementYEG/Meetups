@@ -1,0 +1,108 @@
+# 2018-01-08 Data Management Meetup Event
+6:30pm @ EPL Idylwylde Branch
+Minutes by Rob
+
+Monthly Edmonton Data Management Meetup
+	- https://www.meetup.com/Edmonton-Data-Management-Meetup/
+
+This month, we will took a look at the results of the survey.
+	Link to survey:
+	https://goo.gl/forms/BsIs2tfOiDj9fC792
+
+    
+# Presenters 
+
+Patrick Chorley  - Azure **Data Lake** - a service that can host large volumes of data.
+
+Michael Lo  - Microsoft's **Power BI** solution  - a tool to analyze and create dashboards.
+
+	SLIDES FROM PRESENTATIONS
+	AVAILABLE FROM GITHUB
+	https://github.com/DataManagementYEG/Meetups
+
+———
+
+## Attendees 
+
+Shanny - Investopedia - Google -> AWS
+
+Hung * - CWB risk analyst 
+
+Mona * - DW / BI
+
+Kevin * - legal - tools
+
+Linda - DBA - financial Azure - Oracle
+
+Lillian * - compliance analyst - AH - tools
+
+Martha - research coordinator - UofA
+
+Elana - meta data - data management 
+
+John - engineer - specifics about PowerBI - data sources (property) 
+
+Matthew - real estate Edmonton - Azure -  data auditing 
+
+Fareeza - GOA
+ 
+——-
+
+## Notes
+### Azure Data Lake
+- What the differences are between Data Lakes & Data Warehouse
+- Data Warehouse in top of a Data Lake - they each provide different benefits to the business
+ - Azure DL is Microsoft’s specific implementation of the generic technologies around Hadoop / HDFS
+ - DataLake Features
+ - ETL Tools
+-  Data Warehouse targets
+	- Databases
+	- Analysis
+	- PowerBI
+- Data Catalog (meta data)
+
+### PowerBI
+- Visualizations for Business People
+- OnPrem version vs InCloud
+- Flexible Data Sources & Services
+- Basic Transformation Functionality 
+- Features
+	- drill down 
+	- filters
+- Variety of Visualizations 
+
+## Q:
+	- Competitors ?
+	- On-Prem Vs cloud? Costs ?
+	- Azure vs Hadoop ?
+	- JSON ?
+	- Costs ?
+		- operational vs capital
+		- alerts
+	- Static or Real-Time ?
+	- SQL for non-RDBMS Data?
+	- “External” tables ?
+	- Regions?
+	- NRC (John) offering from GovCan []
+	- Cloud requirements for PowerBI ?
+	- R for transformations (tidy data)?
+
+
+
+
+
+## 💡 Idea
+- “in the cloud” Meetup using free services and doing examples from the web
+	- Interested?
+
+
+
+
+## Next Meeting
+ - Feb. 5th - same place, same time
+		- RSVP via Meetup.com
+
+# More Notes ....
+
+
+
