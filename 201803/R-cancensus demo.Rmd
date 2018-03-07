@@ -1,0 +1,194 @@
+---
+title: "cancensus Demo"
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+  html_notebook:
+    toc: yes
+---
+
+### Info
+
+* Author: Fareeza Khurshed
+* Date: 2018-03-04
+* This demo requires: cancensus, sf, sp, rgdal, leaflet, tidyverse
+
+*Note that an API key is also required via (censusmapper)[censusmapper.ca] and you need to set the cache location as well. This has been commented out of the code but you will need to include it in your code.*
+
+
+```{r}
+require("cancensus")
+require("tidyverse")
+require("sf")
+require("sp")
+require("rgdal")
+require("leaflet")
+
+#Set API key - this will store it for future use
+#DO NOT MAKE YOUR KEY PUBLIC
+options(cancensus.api_key = census_api_key)
+options(cancensus.cache_path = census_cache_path)
+```
+
+### Background
+
+## Census Data
+
+***
+
+* Census data is collected every 5 years
+* In 2011, the census was modified on very short notice to make it a non-mandatory response by the Harper Government
+* As a result the quality of the data was compromised, to the point it was renamed from 'census' to the National Household Survey (NHS)
+* Because of the concerns with the quality of the data many comparisons are using 2005 data, a ten year gap is being used instead of a five year gap
+* The census data has over 2000+ variables that cover a range of topics from age, income, household composition, langauge and ethnicity
+
+## cancensus Package
+
+***
+
+* Covers three census periods, 2005, 2011, 2016
+
+To see the census periods available:
+
+```{r}
+list_census_datasets()
+```
+
+
+Census data measures each individual. Because of privacy, the data is aggregated to spatial areas. The spatial breakdown roll up. The levels most commonly used are:
+
+* Province
+* CMA - Metropolitan Areas
+* DA - Dissemination Area
+* CSD - Census Subdivision
+* CD - Census Divisions
+* CT - Census Tracts
+* FED - Federal Electoral Districts
+* PED - Provincial Electoral Districs (responsibility of AB Govt)
+
+To see the spatial areas available and the codes that correspond:
+```{r}
+list_census_regions("CA16")
+```
+
+
+#### To find the name of the region for Edmonton, it's easiest to search for it:
+```{r}
+list_census_regions("CA16") %>% filter(name == 'Edmonton')
+```
+
+
+
+## Objective: Examine the median income for households in Alberta
+*Use CSD level to limit data (DA is too small)
+*Use 2011 census
+*Examine the distribution
+*See the spatial distribution
+
+#### Obtain the data first:
+```{r}
+AB <- get_census(dataset='CA16', 
+                 regions=list(PR="48"),
+                 vectors="v_CA16_2397", 
+                 level='CSD', 
+                 quiet = TRUE, 
+                 geo_format = 'sf', 
+                 labels = 'short')
+
+print(AB[, c(5, 7, 14)])
+```
+
+#### Check the summary statistics for viewing:
+```{r}
+summary(AB$v_CA16_2397)
+```
+
+#### Create a histogram of the median:
+```{r}
+ggplot(data=AB, aes(AB$v_CA16_2397)) + 
+  geom_histogram(breaks=seq(0, 250000, by = 10000), 
+                 col="black", 
+                 fill="blue", 
+                 alpha = .9) + 
+  labs(title="Histogram for Median Income") +
+  labs(x="Median Income", y="Count") 
+```
+
+#### Basic Spatial Plot, automatic
+
+```{r}
+plot(AB[14], main = "AB Median Household Income by CSD")
+```
+
+### Interactive Plot via, leaflet
+
+```{r}
+#labels for pop-ups
+income_labels <- sprintf(
+  "<strong>%s</strong><br/>%g Median Household Income",
+  AB$name, AB$v_CA16_2397
+) %>% lapply(htmltools::HTML)
+
+#bins for colours/legends
+bins <- c(0, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 90000, 100000, 125000, 150000, 200000, Inf)
+#colour palette selection
+pal <- colorBin("RdYlBu", domain = AB$v_CA16_2397, bins = bins)
+
+#create graph
+leaflet(AB) %>% 
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addPolygons(fillColor = ~pal(v_CA16_2397),
+              color = "white",
+              weight = 1,
+              opacity = 1,
+              fillOpacity = 0.65,
+              label = income_labels,
+              highlight = highlightOptions(
+                weight = 5,
+                color = "#666",
+                dashArray = "",
+                fillOpacity = 0.7,
+                bringToFront = TRUE)) %>%
+  addLegend("bottomright", pal = pal , values = ~v_CA16_2397, opacity = 1, title="Median Household Income by CSD")
+```
+
+Unfortunately Edmonton is a single CSD, so this doesn't give us any indication of the distribution within Edmonton. 
+
+
+### Repeat for only Edmonton, at a DA level
+
+```{r}
+edmonton <- get_census(dataset='CA16', regions=list(CMA="48835"), vectors=c("v_CA16_2397"), level='DA', geo_format = "sf", labels='short', quiet=TRUE)
+
+
+income_labels <- sprintf(
+  "<strong>%s</strong><br/>%g Median Income",
+  edmonton$GeoUID, edmonton$v_CA16_2397
+) %>% lapply(htmltools::HTML)
+
+#names(edmonton)
+
+
+bins <- c(0, 30000, 60000, 90000,120000, 150000, 200000, 250000, Inf)
+pal <- colorBin("RdYlBu", domain = edmonton$v_CA16_2397, bins = bins)
+leaflet(edmonton) %>% 
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addPolygons(fillColor = ~pal(edmonton$v_CA16_2397),
+              color = "white",
+              weight = 1,
+              opacity = 1,
+              fillOpacity = 0.65,
+              label = income_labels,
+              highlight = highlightOptions(
+                weight = 5,
+                color = "#666",
+                dashArray = "",
+                fillOpacity = 0.7,
+                bringToFront = TRUE)) %>%
+  addLegend("bottomright", pal = pal , values = ~edmonton$v_CA16_2397, opacity = 1, title="Average Household Income by DA")
+```
+
+Thanks for reading. 
+
+Credit to: @vb_jens, Jens Von Bergman at [Censusmapper](censusmapper.ca) who developed and supports this package. 

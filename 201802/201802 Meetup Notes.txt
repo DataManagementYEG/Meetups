@@ -11,7 +11,9 @@ Link to survey:
     
 # Presenters 
 
-TBD
+Jason Medwid
+ - SQL … and Data Modelling
+
 ———
 
 	SLIDES FROM PRESENTATIONS
@@ -20,15 +22,77 @@ TBD
 
 
 ## Attendees 
-
+- Lee Anne - data management
+- Angela* - SAS ETL
+- Hung* - data science
+- Yemi - economist 
+- Jim - economist - BI
+- Marta* - health science
+- Kevin* - legal/BIO
+- Doran - DW/BI
+- Yong* - BI
+- Paul - data challenge: voice audio
  
 ——-
 
 ## Notes:
+- SQL format tools/plugins
+- sp_help vs information_schema
+- valid SQL
+- commenting code
+- data type conversion
+- inner joins & left joins
+- functions
+- syntax variations in different products
+
+
+
+
+### Tools - to try on your own ....
+1. SQL Server - tool used in the demo
+	- Windows Only
+	- Licensed - but "express" version is free (limits on size of DB)
+	- [SQL 2017 Express](https://www.microsoft.com/en-us/download/details.aspx?id=55994)
+	- This provides the database, command line and the SSMS GUI management tool
+	- (also available: SSRS Reporting - https://www.microsoft.com/download/details.aspx?id=55252)
+	- Developer Edition is also available (https://www.microsoft.com/en-us/sql-server/developer-get-started/)
+
+2. SQLite
+	- already installed on MacOS [terminal:  sqlite3]
+	- windows - [free install](http://www.sqlitetutorial.net/download-install-sqlite/)
+	- command line ... but GUI tools exist
+		- ex: [SQLite Browser](http://sqlitebrowser.org)
+
+3. PostgreSQL
+	- free open source DB ("oracle-like")
+	- All OS: https://www.postgresql.org/download
+	- MacOS: simplest install https://postgresapp.com
+	- GUI tool - https://www.pgadmin.org
+
+4. CLOUD
+	- Both AWS and Azure offer cheap/free options to set up in the cloud
+	- Install local client tools and access the database remotely
+		- SQL Express for example - connected to full DB
+
+5. Various
+	- Jupyter Notebook
+		- import pandas as pd
+		- import sqlite3
+		
+	- [SQL on CSV](http://harelba.github.io/q/)
+	
+	- https://www.heidisql.com
+
+	- http://etia.co.uk
+
+
 
 ## Questions:
+-
+
 
 ## 💡 Ideas:
+- [ ] Create an index of past meetups by topic and put on website ... 
 
 
 ## Next Meeting

@@ -1,0 +1,91 @@
+# 2018-03-05 Data Management Meetup Event
+6:30pm @ EPL Idylwylde Branch
+Minutes by Rob
+
+Monthly Edmonton Data Management Meetup
+	- https://www.meetup.com/Edmonton-Data-Management-Meetup/
+
+Link to survey:
+	https://goo.gl/forms/BsIs2tfOiDj9fC792
+
+    
+# Presenters 
+
+Fareeza Khurshed 
+ - R - a leading statistical language
+Mostafa Hadavandsiri 
+- Python - a general purpose tool that has become increasingly popular in data science
+
+———
+
+	SLIDES FROM PRESENTATIONS
+	AVAILABLE FROM GITHUB
+	https://github.com/DataManagementYEG/Meetups
+
+
+## Attendees 
+- Mostafa* - presenting
+- Fareeza* - presenting
+- Marta* - just learning
+- Doran* - db guy / BI
+- Nathan - analytics / BI
+- Liza - Data Warehousing
+- Kevin* - informatics/law
+- Glenn - bioinformatics
+- Lee - analytics / bi / SAS, SPSS
+- Angela - SAS
+- Helen - geoscience, data processing
+- 
+——-
+
+## Notes:
+- Lee: Project Idea re: Pharmaceuticals Shortages
+- Doran: SQL Server Presentation:
+	- May 5th - SQL Saturday
+	- SSIS Sucks!
+	The session:
+	http://www.sqlsaturday.com/710/Sessions/Details.aspx?sid=74656
+	
+	My repo for the session.
+	https://bitbucket.org/DoranDouglas/ssissucks
+
+
+## Presentations
+Both Fareeza and Mostafa walked through a common example using the same StatCan census data.  This will allow us to see & compare the features of each language & environment.
+
+
+### R
+- Using R Studio to develop and present the results in a notebook format
+- The data being used has been made available through a great site: https://censusmapper.ca
+	- to use this site yourself, register for an API KEY
+- there are tricks to installing and having packages run in the windows "user space"
+- Visualizing and mapping data to understand your data
+
+- Code and output can be found in Fareeza's Github Repo:
+	- https://github.com/statgeek/R-Tutorials
+
+### Python
+- Using Jupyter to develop and present in a notebook format
+- Showing the features of data cleanup and visualizing
+- Custom packages can be written and integrated 
+	- use PYTHONPATH environment variable to point to directory of your code
+ 
+- Code and output can be found in Mostafa's Github Repo:
+	- https://github.com/statgeek/R-Tutorials
+
+
+## Questions:
+-
+
+
+## 💡 Ideas:
+
+
+## Next Meeting
+ - Mar. 5th - same place, same time
+		- RSVP via Meetup.com
+
+# More Notes ....
+
+
+
