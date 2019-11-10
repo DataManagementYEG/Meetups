@@ -1,0 +1,83 @@
+# 2019-10-21 Data Management Meetup Event
+6:30pm @ Devfacto
+Minutes by Rob
+
+Monthly Edmonton Data Management Meetup
+	- https://www.meetup.com/Edmonton-Data-Management-Meetup/
+
+Link to survey:
+	https://goo.gl/forms/BsIs2tfOiDj9fC792
+
+**Note** This meetup is last before Summer Social Series
+    
+## Presenter(s)
+		Kyle Dobson
+
+	see: TO GET FROM KYLE
+
+
+## Hosts
+	Rob Kellington
+	Jason Medwid
+
+———
+
+	SLIDES FROM PRESENTATIONS
+	AVAILABLE FROM GITHUB
+	https://github.com/DataManagementYEG/Meetups
+
+	All presentations also in PDF
+
+## Attendees (18)
+
+RSVP:
+a.p
+Ada Xing				- New Grad
+Anahita
+Angela
+David Cronin
+Doran Douglas
+Juan Gallardo
+Katrina Regan-Ingram	- Data Privacy
+Lee Anne Pedersen		- Long Timer - DBA, Data Governance
+
+Mathew Kallumadil		- Devfacto - Enriching/interacting with data
+Matthew Rudy
+
+Nhuan To				- Phd
+nwamuo onyekachi
+Olalekan
+Stephen Ezekwem			- DevFacto - Aurora / MDM - home automation
+Trevor B				- First Time Generation.ca - network/infrastructure
+Wisam Fawzi				- DevFacto - Presentaion
+Wojtek T
+
+
+Other:
+Vince 					- U of A - Prof
+Kachi  					- U of A - Security
+Alex					- Long Timer; Data
+Conner					- Devfacto - Operations, MIS, Predictive Analytics
+Brad					- Devfacto - DW, BI
+Mark					- Devfacto - MDM
+
+
+——-
+
+## Notes:
+- Good Q&A session afer the presentation
+
+
+
+## 💡 Ideas:
+	- Specific Examples
+	- Business Models
+	- Alternative Databases
+	- Philophy of Data (AI & Data Munging)
+
+## Next Meeting
+	- Monday, November 25th
+
+# More Notes ....
+
+

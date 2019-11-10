@@ -1,0 +1,73 @@
+# 2018-06-11 Data Management Meetup Event
+6:30pm @ EPL Idylwylde Branch
+Minutes by Rob
+
+Monthly Edmonton Data Management Meetup
+	- https://www.meetup.com/Edmonton-Data-Management-Meetup/
+
+Link to survey:
+	https://goo.gl/forms/BsIs2tfOiDj9fC792
+
+**Note** This meetup is last before Summer Social Series
+    
+# Presenters 
+
+## Rob Kellington
+	see: Data Modelling.key
+———
+
+	SLIDES FROM PRESENTATIONS
+	AVAILABLE FROM GITHUB
+	https://github.com/DataManagementYEG/Meetups
+
+	All presentations also in PDF
+
+## Attendees (18)
+- Janet* - GIS
+- Fareeza* - Data Scientist
+- Kevin - Legal/Data Science
+- Lee Anne - DBA
+
+——-
+
+## Notes:
+- Links to Datasets
+	- https://github.com/awesomedata/awesome-public-datasets
+	- https://www.forbes.com/sites/bernardmarr/2016/02/12/big-data-35-brilliant-and-free-data-sources-for-2016/#21380d2db54d
+- Great discussions
+	- 
+
+
+## Presentations
+- see presentations in GitHub
+
+## Notes:
+- Other tech and methods
+	- GIS
+		- GeoJSON
+			- Standard for storing geographic data on Web
+			- Many GIS tools knowhow to use this
+		- WKT
+			- Well Known Text (or binary) for Geo data 
+		- Shapefiles
+			- ESRI standard for geopgraphy
+	- XML
+		- Still around
+		- Usage depends on tools and tech being used
+	- Time Based
+		- Becoming increasingly important with IoT
+		- 
+
+
+## 💡 Ideas:
+- "Data for Good"
+	- Partner to help manage their data
+
+
+## Next Meeting
+ - Summer Social Series - watch email and meetup.com
+
+# More Notes ....
+	- An idea for using "Drug Shortage" data as an example project is on hold
+
+
