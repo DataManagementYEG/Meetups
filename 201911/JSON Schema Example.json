@@ -1,0 +1,114 @@
+{
+    "schemaVersion": "2.0.0",
+    "scoring": {
+        "type": "Scoring",
+        "package": "Regular",
+        "useCase": "Lending-Payday",
+        "jurisdiction": {
+            "country": "CAN",
+            "state": "ON"
+        },
+        "generateReport": true
+    },
+    "control": {
+        "tags": [
+            "mobile"
+        ],
+        "callbackHeader": "X-Api-Key: 9tXKB8aZoLiqWvdvasdfqr4gZAkMhw1JbhrvcP7f54nJ",
+        "environment": "prod",
+        "correlationId": 1571937202686
+    },
+    "source": "Portal",
+    "user": "bill@client.com",
+    "batchName": "single",
+    "sendMobileInvite": false,
+    "data": {
+        "person": {
+            "firstName": "mary",
+            "lastName": "jones",
+            "emails": [
+                {
+                    "primary": "some.name@hotmail.com"
+                }
+            ],
+            "phones": [
+                {
+                    "home": ""
+                },
+                {
+                    "mobile": "+11234567890"
+                },
+                {
+                    "work": ""
+                }
+            ],
+            "addresses": [
+                {
+                    "isCurrentResidence": true,
+                    "monthsAtResidence": 1,
+                    "monthlyHousingCost": 0,
+                    "residenceStatus": "Other",
+                    "streetAddress": "123 Main St",
+                    "city": "Somewhere",
+                    "state": "ON",
+                    "country": "CAN",
+                    "postalCode": "L5M 1M2"
+                }
+            ],
+            "birthday": "1972-10-16"
+        },
+        "currentEmployment": {
+            "employer": {
+                "name": "Big Company",
+                "phone": ""
+            },
+            "jobTitle": "Worker",
+            "monthlyIncomeNet": 5000,
+            "employmentMonthCount": 104,
+            "paymentsPerYear": 26,
+            "employmentType": "Full-Time"
+        },
+        "loanApplication": {
+            "dateOriginated": "2019-10-24",
+            "clientCustomerId": "123456",
+            "clientLoanReferenceId": "987654321",
+            "principalAmount": 5000,
+            "custom": [
+                {
+                    "custGroup": 2,
+                    "otherClass": "A"
+                }
+            ]
+        }
+    },
+    "dataContext": {
+        "appendix": {
+            "links": {
+                "scoringDetailsUrl": "https://console.trustscience.com/scoring-request-details/954211e0-f681-11e9-84e4-a92c6b594619"
+            }
+        },
+        "clientConfig": {
+            "displayName": "ClientName",
+            "callbacks": {
+                "web": "https://clientName.ca/services/scoring",
+                "mobile": "https://clientName.ca/services/credit-score"
+            },
+            "jurisdiction": {
+                "country": "CAN",
+                "state": "ON"
+            },
+            "defaultUseCase": "Lending-Payday",
+            "features": {
+                "settings": true,
+                "shortTermLoanForm": true,
+                "requestHistory": true,
+                "scoringRequestDetails": true,
+                "bankingAnalysisReport": false,
+                "documentationV1": true,
+                "documentationV2": true,
+                "requiresInitial": true
+            }
+        },
+        "originatingIp": "3.123.456.789, 64.123.456.789"
+    }
+}

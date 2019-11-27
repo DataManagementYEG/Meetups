@@ -1,0 +1,50 @@
+<S3 Bucket>
+    /<client>
+        /a3a9e470-90c8-11e9-b5b7-f37c87eba0bd (requestId)
+
+        /PipelineStep1
+    		/PipelineStep1/Source1/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd.json
+			/PipelineStep1/Source2/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd.json
+			/PipelineStep1/data/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-thisInfo.json
+			/PipelineStep1/data/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-thatInfo.json
+			/PipelineStep1/data/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-otherDataInfo.json
+			/PipelineStep1/data/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-derivedInfo.json
+            /PipelineStep1/data/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-PRIVATEInfo.json
+            
+		/PipelineStep2
+            /PipelineStep2/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-centralityInfo.json
+            
+        /PipelineStep3
+            /PipelineStep3/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-request.json
+            /PipelineStep3/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-results.json
+     
+        /PipelineStep4
+			/PipelineStep4/identity/fac5c5d219dc7112af565cddb3b273da9b757bbeb74f39c5b936091790e14429.json
+			/PipelineStep4/model/fac5c5d219dc7112af565cddb3b273da9b757bbeb74f39c5b936091790e14429.model.json
+			/PipelineStep4/request/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd.json
+			/PipelineStep4/request/raw/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd.json
+			/PipelineStep4/result/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-results.json
+            /PipelineStep4/result/mining-identity-tks-hash.json
+
+        /PipelineStep5
+			/PipelineStep5/cleanerRequest/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model1a.json
+			/PipelineStep5/cleanerRequest/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model2.json
+			/PipelineStep5/cleanerRequest/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model5.json
+			/PipelineStep5/cleanerRequest/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model3.json
+			/PipelineStep5/formatterRequest/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd.json
+			/PipelineStep5/predictorRequest/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model1a.json
+			/PipelineStep5/predictorRequest/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model2.json
+			/PipelineStep5/predictorRequest/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model5.json
+			/PipelineStep5/predictorRequest/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model3.json
+			/PipelineStep5/scores/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-score.json
+			/PipelineStep5/separateScores/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model1a.json
+			/PipelineStep5/separateScores/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model2.json
+			/PipelineStep5/separateScores/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model5.json
+            /PipelineStep5/separateScores/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-model3.json
+
+        /PipelineStep6 
+			/PipelineStep6/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-clientReport-B4.json
+			/PipelineStep6/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-clientReport-I2.json
+			/PipelineStep6/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-clientReport-N3.json
+			/PipelineStep6/a3a9e470-90c8-11e9-b5b7-f37c87eba0bd-clientReport.json
+]

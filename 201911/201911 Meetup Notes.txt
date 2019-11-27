@@ -1,4 +1,4 @@
-# 2019-10-21 Data Management Meetup Event
+# 2019-101-25 Data Management Meetup Event
 6:30pm @ Devfacto
 Minutes by Rob
 
@@ -8,12 +8,12 @@ Monthly Edmonton Data Management Meetup
 Link to survey:
 	https://goo.gl/forms/BsIs2tfOiDj9fC792
 
-**Note** This meetup is last before Summer Social Series
-    
 ## Presenter(s)
-		Kyle Dobson
 
-	see: TO GET FROM KYLE
+		Not Only SQL
+		Rob Kellington
+			Most data is best managed in classic SQL databases. But there are challenges that might best be met using alternative tech.
+			We will have a discussion on how other databases and storage options might best solve different challenges. And how a combination might be the perfect solution.
 
 
 ## Hosts
