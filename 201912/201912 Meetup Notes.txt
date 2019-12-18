@@ -1,0 +1,58 @@
+# 2019-12-16 Data Management Meetup Event
+6:30pm @ Devfacto
+Minutes by Rob
+
+Monthly Edmonton Data Management Meetup
+	- https://www.meetup.com/Edmonton-Data-Management-Meetup/
+
+## Presenter(s)
+
+		Graph Databases
+		Nhuan To
+			Presenting Property and RDF graphs.
+
+
+## Hosts
+	Rob Kellington
+	Jason Medwid
+
+———
+
+	SLIDES FROM PRESENTATIONS
+	AVAILABLE FROM GITHUB
+	https://github.com/DataManagementYEG/Meetups
+
+	All presentations also in PDF
+
+## Attendees (18)
+
+Nhuan
+Vince 
+Jason
+Brent
+Kyle
+Katrina - AI
+Jason - CIO
+Katchi - UVic
+Mo - BI
+Mat , Michael, Conner, Christina, Shanni , Alexis, Cameron - DevFacto 
+Zach - Data Manager
+Rob -UofA Business
+Dustin - Grad student
+Alex - Data consultant 
+
+——-
+
+## Notes:
+- Good Q&A session afer the presentation
+
+
+
+## 💡 Ideas:
+
+## Next Meeting
+	- Monday, Jan. 20th
+
+# More Notes ....
+
+
