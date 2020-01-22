@@ -1,0 +1,67 @@
+# 2020-01-21 Data Management Meetup Event
+6:30pm @ Devfacto
+Minutes by Rob
+
+Monthly Edmonton Data Management Meetup
+	- https://www.meetup.com/Edmonton-Data-Management-Meetup/
+
+## Presenter(s)
+
+		MIS Predictive Analytics 2020
+		Vince Davis, UofA School of Business
+			Recent Course-Topics in MIS412
+
+
+## Hosts
+	Rob Kellington
+	Jason Medwid
+
+———
+
+	SLIDES FROM PRESENTATIONS
+	AVAILABLE FROM GITHUB
+	https://github.com/DataManagementYEG/Meetups
+
+	All presentations also in PDF
+
+	Jupyter Notebooks and suppoting data also included
+
+## Attendees (15)
+
+Randall - UofA
+Matt - UofA
+Michael - TrustScience
+Doran - Consultant
+
+CWB
+ - Dan
+ - Shree
+ - Steve
+
+Devfacto
+ - Lexi
+ - Michael
+ - Matt
+Kyle & Jason
+
+
+Vince & Nhuan
+
+——-
+
+## Notes:
+- Presentation slides give overview - but take a look at the Jupyter Notebooks (HTML or ipynb)
+
+- Running Jupyter ....
+	- Suggestion, install Anaconda - https://www.anaconda.com/distribution/  
+
+
+
+## 💡 Ideas:
+
+## Next Meeting
+	- TBD
+
+# More Notes ....
+
+
